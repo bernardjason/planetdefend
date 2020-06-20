@@ -1,0 +1,91 @@
+# Material file for artifact.obj
+
+newmtl alien
+	Ns 0
+	d 1
+	illum 2
+	Kd -1.0 0.8 -1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl blue
+	Ns 0
+	d 1
+	illum 2
+	Kd -1.0 -1.0 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl alien
+	Ns 0
+	d 1
+	illum 2
+	Kd -1.0 0.8 -1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl blue
+	Ns 0
+	d 1
+	illum 2
+	Kd -1.0 -1.0 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl purple
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 -1.0 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl yellow
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.79 0.8 -1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl green
+	Ns 0
+	d 1
+	illum 2
+	Kd -1.0 0.8 -1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl cyan
+	Ns 0
+	d 1
+	illum 2
+	Kd -1.0 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl red
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 -1.0 -1.0
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl pink
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.53 0.66
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+
+newmtl m1
+	Ns 0
+	d 1
+	illum 2
+	Kd 0.8 0.8 0.8
+	Ks 0.0 0.0 0.0
+	Ka 0.2 0.2 0.2
+	map_Kd artifact.png
+

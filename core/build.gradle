@@ -1,0 +1,20 @@
+apply plugin: "scala"
+apply plugin: "java"
+
+dependencies{
+    compile "org.scala-lang:scala-library:2.11.6"
+}
+tasks.withType(ScalaCompile) {
+    scalaCompileOptions.additionalParameters = ["-nowarn"]
+}
+sourceSets.main.scala.srcDirs = [ "src/" ]
+
+sourceCompatibility = 1.6
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+
+
+eclipse.project {
+    name = appName + "-core"
+}
